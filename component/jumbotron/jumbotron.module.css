@@ -1,0 +1,26 @@
+.jumbotron {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40rem;
+}
+
+.jumbotron__title {
+  background: linear-gradient(0deg, #d0d0d0, #e7e7e7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: var(--font-poppins);
+  font-size: 3rem;
+  letter-spacing: 0rem;
+  line-height: 1.25;
+  max-width: 75%;
+  text-align: center;
+}
+
+.jumbotron__detail {
+  margin-top: 1.25rem;
+  max-width: 75%;
+  text-align: center;
+}

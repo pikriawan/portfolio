@@ -1,0 +1,24 @@
+.header {
+  align-items: center;
+  background-color: #0b0b0b;
+  display: flex;
+  height: 5rem;
+  left: 0;
+  padding: 0 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.brand {
+  font-family: var(--font-poppins);
+  font-style: italic;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 0 7.5rem;
+  }
+}
